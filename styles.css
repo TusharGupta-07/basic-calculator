@@ -1,0 +1,98 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsizO4XZIsH3JL7aK9dogApBAj_6CKNykTwg&usqp=CAU");
+    position: center;
+}
+h1{
+    text-align : center;
+    color: white;
+    font-size:3.2rem;
+    letter-spacing: 0.3rem;
+    margin: 10px auto 10px;}
+
+.container{
+    widows: 1000px;
+    height: 550px;
+}
+
+.calculator{
+    width: 340px;
+    height: 561px;
+    background-color: rgb(218, 210, 210);
+    margin: 0px auto;
+    border-radius: 25px;
+    top: 20px;
+    position: relative;
+    box-shadow : 0px 0px 20px 0px red;
+}
+
+/* .result{
+    height: 140px;
+}
+
+.prevResult{
+    text-align: right;
+    height: 40px;
+    margin: 0px 20px;
+    padding-top:30px;
+    font-size: 18px;
+    color: #919191;
+}
+
+.currResult{
+    text-align: right;
+    height: 80px;
+    margin: 10px 20px;
+    font-size: 30px;
+
+} */
+input{
+    border-radius: 25px;
+    outline:0;
+    border-width: 0px;
+    background-color:  rgb(218, 210, 210);
+    font-size:34px;
+    height: 100px;
+    width: 315px;
+    text-align: right;
+}
+.keyboard{
+    height: 300px;
+
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height:50px;
+    float: left;
+    margin: 17.49px;
+    font-size: 20px;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+}
+
+.number, .empty{
+    background-color: rgb(218, 210, 210);
+}
+
+.number, .operator{
+    cursor:pointer;
+}
+
+.number:active, .operator:active{
+    font-size: 12px;
+    background-color: rgb(248, 115, 115);
+}
+
+.operator:active{
+    background-color: rgb(129, 129, 250);
+}
+
+.number:focus, .operator:focus, .empty:focus{
+    outline:0;
+}
+
+button:nth-child(1){
+    color: red;
+}
+
